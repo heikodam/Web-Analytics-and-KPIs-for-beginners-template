@@ -1,6 +1,7 @@
 # About
 
-This repository should serve as a getting started template to learn the fundamentals about web tracking and analysis. It is a learning material within PM_LU_38 - Web Analytics & KPIs, a learning unit at CODE University of Applied Sciences in Berlin. The course it taught by @Bolland
+This repository should serve as a **template and playground** to get started with web tracking and analysis with Google Analytics and Google Tag Manager.
+It is a learning material within PM_LU_38 - Web Analytics & KPIs, a learning unit at CODE University of Applied Sciences in Berlin. The course it taught by @Bolland
 
 # Project setup
 
