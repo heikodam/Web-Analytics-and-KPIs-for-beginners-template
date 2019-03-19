@@ -52,7 +52,10 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                </button>
-               <a class="navbar-brand" href="index.html"  onclick="ga('send', 'event', 'Button', 'HomePageButton');">Project name</a>
+               <a class="navbar-brand" 
+                  href="index.html" 
+                  onclick="dataLayer.push({'event': 'buttonClick', 'button': 'navbar-brand'});"
+                     >Project name</a>
             </div>
             <!--/.navbar-collapse -->
          </div>
@@ -80,9 +83,9 @@
                   malesuada magna mollis euismod. Donec sed odio dui.
                </p>
                <p>
-                  <a class="btn btn-default" href="#" role="button" onclick="ga('send', 'event', 'Button', 'CTA1');"
-                     >CTA 1 &raquo;</a
-                  >
+                  <a class="btn btn-default" href="#" role="button"  onclick="dataLayer.push({'event': 'buttonClick', 'button': 'CTA1'});">
+                        CTA 1 &raquo;
+                     </a>
                </p>
             </div>
             <div class="col-md-4">
@@ -94,9 +97,9 @@
                   malesuada magna mollis euismod. Donec sed odio dui.
                </p>
                <p>
-                  <a class="btn btn-default" href="#" role="button" onclick="ga('send', 'event', 'Button', 'CTA2');"
-                     >CTA 2 &raquo;</a
-                  >
+                  <a class="btn btn-default" href="#" role="button" onclick="dataLayer.push({'event': 'buttonClick', 'button': 'CTA2'});">
+                     CTA 2 &raquo;
+                  </a>
                </p>
             </div>
             <div class="col-md-4">
@@ -108,9 +111,9 @@
                   condimentum nibh, ut fermentum massa justo sit amet risus.
                </p>
                <p>
-                  <a class="btn btn-default" href="#" role="button" onclick="ga('send', 'event', 'Button', 'CTA3');"
-                     >CTA 3 &raquo;</a
-                  >
+                  <a class="btn btn-default" href="#" role="button" onclick="dataLayer.push({'event': 'buttonClick', 'button': 'CTA3'});">
+                     CTA 3 &raquo;
+                  </a>
                </p>
             </div>
          </div>

@@ -6,7 +6,7 @@ It is a learning material within PM_LU_38 - Web Analytics & KPIs, a learning uni
 # Project setup
 
 -  Register on Github.com if you haven't
--  [Fork](https://help.github.com/en/articles/fork-a-repo) this repository to your own Github account
+-  [Clone](https://help.github.com/en/articles/cloning-a-repository) or [Fork](https://help.github.com/en/articles/fork-a-repo) this repository to your own Github account
 -  This should download all files to your computer
 -  Navigate to the downloaded folder using finder / explorer or your command line / terminal.
 -  Folder structure: You'll find enumerated folders ('0-initial-setup', '1-event-tracking', etc.) that contain similar files and build upon each other.
