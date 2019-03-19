@@ -6,7 +6,7 @@ This repository should serve as a getting started template to learn the fundamen
 
 -  Register on Github.com if you haven't
 -  [Fork](https://help.github.com/en/articles/fork-a-repo) this repository to your own Github account
--  Create a Google Analytics account at [analytics.google.com]
+-  Create a [Google Analytics](https://analytics.google.com/) account
 -  Retrieve your Google Analytics tracking code as explained [here](https://support.google.com/analytics/answer/1008080?visit_id=636885962702722888-2249578001&rd=1)
 -  Edit the `/js/google-analytics.js` file to include your individual Google Analytics tracking code
 -  [Commit and push](https://stackoverflow.com/questions/2745076/what-are-the-differences-between-git-commit-and-git-push) your changes to your repository
