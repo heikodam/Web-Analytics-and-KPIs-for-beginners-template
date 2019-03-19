@@ -1,1 +1,1 @@
-<!-- Put your Google Analytics tracking code here --> 
+// Put your Google Analytics tracking code here
