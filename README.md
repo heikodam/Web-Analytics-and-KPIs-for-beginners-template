@@ -35,14 +35,14 @@ This folder contains two basic pages with some dummy content. The goal here is t
 
 ## 1-event-tracking
 
-https://bolland.github.io/Web-Analytics-and-KPIs-for-beginners-template/1-event-tracking/index.html
+[https://bolland.github.io/Web-Analytics-and-KPIs-for-beginners-template/1-event-tracking/index.html](https://bolland.github.io/Web-Analytics-and-KPIs-for-beginners-template/1-event-tracking/index.html)
 
 Only continue to this lecture once you have successfully finishe setting up GA and the site in step 0.
 
-This folder contains the same pages but adds basic event tracking to the buttons. Events triggered by clicking those buttons should appear in your Google Analytics view.
+This folder contains the same pages but adds **basic event tracking** to the buttons. Events triggered by clicking those buttons should appear in your Google Analytics view.
 
 ## 2-google-tag-manager
 
-https://bolland.github.io/Web-Analytics-and-KPIs-for-beginners-template/2-google-tag-manager/index.html
+[https://bolland.github.io/Web-Analytics-and-KPIs-for-beginners-template/2-google-tag-manager/index.html](https://bolland.github.io/Web-Analytics-and-KPIs-for-beginners-template/2-google-tag-manager/index.html)
 
-This folder builts upon the last two exapmles and implements basic event tracking via 'datalayer.push'.
+This folder builts upon the last two examples and implements **basic event tracking via 'datalayer.push'**.
