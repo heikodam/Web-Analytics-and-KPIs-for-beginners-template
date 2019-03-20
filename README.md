@@ -11,11 +11,11 @@ It is a learning material within PM_LU_38 - Web Analytics & KPIs, a learning uni
 -  Navigate to the downloaded folder using finder / explorer or your command line / terminal.
 -  Folder structure: You'll find enumerated folders ('0-initial-setup', '1-event-tracking', etc.) that contain similar files and build upon each other.
 
-# Learning lectures
+# Learning steps
 
 ## 0-initial-setup
 
-URL: https://bolland.github.io/Web-Analytics-and-KPIs-for-beginners-template/0-initial-setup/index.html
+URL: [https://bolland.github.io/Web-Analytics-and-KPIs-for-beginners-template/0-initial-setup/index.html](https://bolland.github.io/Web-Analytics-and-KPIs-for-beginners-template/0-initial-setup/index.html)
 
 This folder contains two basic pages with some dummy content. The goal here is to correctly set up Google Analytics tracking and publish the site on Github pages.
 
@@ -31,13 +31,13 @@ This folder contains two basic pages with some dummy content. The goal here is t
 -  Enable your repository to use Github Pages (as explained [here](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages))
 -  Your page should now run on your Github Pages and send tracking data to Google Analytics. You can check so by accessing the Real-time report in Google Analytics.
 
-**Note:** you can also run the site on your personal local or remote web server insteaf of Github Pages.
+**Note:** you can also run the site on your **personal local or remote web server** instead of Github Pages.
 
 ## 1-event-tracking
 
 [https://bolland.github.io/Web-Analytics-and-KPIs-for-beginners-template/1-event-tracking/index.html](https://bolland.github.io/Web-Analytics-and-KPIs-for-beginners-template/1-event-tracking/index.html)
 
-Only continue to this lecture once you have successfully finishe setting up GA and the site in step 0.
+Please only continue with this step once you have successfully finish setting up GA and the site in step 0.
 
 This folder contains the same pages but adds **basic event tracking** to the buttons. Events triggered by clicking those buttons should appear in your Google Analytics view.
 
@@ -45,4 +45,14 @@ This folder contains the same pages but adds **basic event tracking** to the but
 
 [https://bolland.github.io/Web-Analytics-and-KPIs-for-beginners-template/2-google-tag-manager/index.html](https://bolland.github.io/Web-Analytics-and-KPIs-for-beginners-template/2-google-tag-manager/index.html)
 
-This folder builts upon the last two examples and implements **basic event tracking via 'datalayer.push'**.
+This folder builts upon the last two examples and shows implementation of **basic event tracking via 'datalayer.push'**.
+
+To make this work:
+
+-  Head over to [https://tagmanager.google.com/](Google Tag Manager) and create an account and container
+-  Install the container on all pages in the folder (`index.html` and `learn-more.html`) like described [https://support.google.com/tagmanager/answer/6103696?hl=en](here)
+-  Specify the events you want to track with `dataLayer.push()` in your code (examples in the files in this folder)
+-  Verify that events are sent from Website -> Tag Manager with GTM's **preview mode**
+-  Set up a **Google Analytics Pageview Tag** that is triggered on all pages
+-  Set up a **Google Analytics Event Tag** that is triggered by the events you define with `dataLayer.push()`in your code.
+-  Verify that events are sent from Tag Manager -> Google Analytics with GTM's **preview mode** or by looking at Google Analytics itself
